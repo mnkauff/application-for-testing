@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+    background: #EBDCB2;
+}
+
+#name-header {
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #662E1C;
+    FONT-SIZE: 49px;
+    font-family: pacifico, sans-serif;
+    margin: 30px 0 15px 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    font-family: pacifico, sans-serif;
+    font-weight: 300;
+    padding: 10px 20px;
+    color: #EBDCB2;
+    background: #662E1C;
+    font-size: 25px;
+    border: none;
+    border-radius: 32px;
+    align-self: center;
+    cursor: pointer;
+}
+
+#start-btn {
+    max-width: 250px;
+    width: 100%;
+}
+
+#question-area {
+    display: none;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+    align-items: center;
+}
+
+#question {
+    color: #662E1C;
+    FONT-SIZE: 21px;
+    font-family: Yanone Kaffeesatz, sans-serif;
+    text-align: center;
+    line-height: 1.4;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+#answer {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#answer button {
+    padding: 10px 20px;
+    font-size: 19px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#restart-btn {
+    display: none;
+}
+
+#input {
+    max-width: 200px;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #662E1C;
+    border-radius: 25px;
+    font-family: 'Pacifico', cursive;
+    font-size: 16px;
+    text-align: center;
+    background-color: #EBDCB2;
+    outline: none;
+}
+
+#answer-btn {
+    max-width: 228px;
+    width: 100%;
+    margin: 0 0 0 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #662E1C;
+    FONT-SIZE: 49px;
+    font-family: pacifico, sans-serif;
+    margin: 30px 0 15px 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    color: #662E1C;
+    FONT-SIZE: 24px;
+    font-family: pacifico, sans-serif;
+}
